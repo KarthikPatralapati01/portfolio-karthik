@@ -2,7 +2,7 @@
 
 import { EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid";
 import { useForm, SubmitHandler } from "react-hook-form";
-import HomeButton from "./Homebutton"; // Ensure this filename matches exactly
+import HomeButton from "./HomeButton"; 
 
 type Inputs = {
   name: string;
