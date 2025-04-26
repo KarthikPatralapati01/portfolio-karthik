@@ -1,8 +1,8 @@
 "use client";
 
-import { EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid";
+import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid"; 
 import { useForm, SubmitHandler } from "react-hook-form";
-import HomeButton from "./HomeButton"; 
+import HomeButton from "./HomeButton";
 
 type Inputs = {
   name: string;
@@ -23,7 +23,7 @@ export default function ContactPage() {
         Contact
       </h2>
       <p className="text-lg text-center text-gray-300 mb-8 max-w-xl">
-        Let’s get in touch! Whether it’s about a job opportunity, a collaboration, or just to say hi — I’m happy to hear from you.
+        Let&apos;s get in touch! Whether it&apos;s about a job opportunity, a collaboration, or just to say hi — I&apos;m happy to hear from you.
       </p>
 
       <div className="space-y-5 text-center mb-8 text-sm md:text-base">
@@ -36,6 +36,7 @@ export default function ContactPage() {
             venkatakarthik.patralapati@sjsu.edu
           </a>
         </div>
+
         <div className="flex items-center gap-3 justify-center">
           <svg
             className="text-green-400 h-6 w-6"
@@ -53,6 +54,7 @@ export default function ContactPage() {
             linkedin.com/in/pvk04
           </a>
         </div>
+
         <div className="flex items-center gap-3 justify-center">
           <PhoneIcon className="text-green-400 h-6 w-6 animate-pulse" />
           <span>+1 (408) 581-3187</span>
@@ -71,7 +73,6 @@ export default function ContactPage() {
         </button>
       </form>
 
-      {/* Home Button */}
       <div className="absolute bottom-10">
         <HomeButton />
       </div>
