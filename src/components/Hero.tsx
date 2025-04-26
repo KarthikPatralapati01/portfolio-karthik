@@ -4,6 +4,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { HomeIcon } from "@heroicons/react/24/solid";
+import Image from "next/image"; 
 import BackgroundCircles from "./BackgroundCircles";
 
 const pageInfo = {
@@ -46,10 +47,12 @@ export default function Hero() {
       <BackgroundCircles />
 
       {/* Profile Image */}
-      <img
+      <Image
         src={pageInfo.profileImage}
         alt="Profile"
-        className="relative rounded-full h-32 w-32 object-cover z-10"
+        width={128}
+        height={128}
+        className="relative rounded-full object-cover z-10"
       />
 
       {/* Name and Role */}
@@ -71,9 +74,7 @@ export default function Hero() {
         animate="visible"
         variants={{
           hidden: {},
-          visible: {
-            transition: { staggerChildren: 0.15 },
-          },
+          visible: { transition: { staggerChildren: 0.15 } },
         }}
       >
         {buttons.map((btn, i) => (
@@ -93,7 +94,7 @@ export default function Hero() {
         ))}
       </motion.div>
 
-      {/* Home Button at Bottom */}
+      {/* Home Button */}
       <Link href="#hero">
         <footer className="absolute bottom-6">
           <div className="h-10 w-10 bg-emerald-500 hover:bg-emerald-400 rounded-full flex items-center justify-center transition hover:scale-110">
