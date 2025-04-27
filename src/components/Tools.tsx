@@ -4,9 +4,13 @@ import { motion } from "framer-motion";
 import HomeButton from "./HomeButton";
 
 const toolsList = [
+  "Python",
+  "SQL",
+  "PostgreSQL",
+  "TypeScript",
   "AWS",
   "GCP (Google Cloud Platform)",
-  "Azure",
+  "Microsoft Azure",
   "Snowflake",
   "BigQuery",
   "Redshift",
