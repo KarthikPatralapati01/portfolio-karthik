@@ -2,7 +2,7 @@
 
 import { FaGithub, FaLinkedin, FaCode } from "react-icons/fa";
 import Link from "next/link";
-
+// minor update
 export default function SocialIcons() {
   return (
     <div className="absolute top-5 left-5 flex space-x-5 z-50">
