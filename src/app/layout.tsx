@@ -25,7 +25,7 @@ export default function RootLayout({
           {/* Social Icons */}
           <div className="flex space-x-6 ml-4">
             <a
-              href="https://github.com/venkatakarthik04"
+              href="https://github.com/KarthikPatralapati01?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-emerald-300 hover:scale-110 transition-transform duration-300 text-3xl"
@@ -41,7 +41,7 @@ export default function RootLayout({
               <FaLinkedin />
             </a>
             <a
-              href="https://leetcode.com/venkatakarthik04/"
+              href="https://leetcode.com/u/karthikpatralapati/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-emerald-300 hover:scale-110 transition-transform duration-300 text-3xl"
