@@ -1,99 +1,81 @@
+// src/data/projects.ts
 export const projectsData = [
-    // --- AI/ML Projects ---
-    {
-      category: "AI/ML",
-      title: "LogLens – An Agentic AI Log Debugger",
-      description:
-        "Built a Gemini-powered RCA assistant for Spark, Kafka, and Airflow logs using LangChain, ChromaDB, and multi-agent auditing.",
-      tech: ["Next.js", "Python", "TypeScript", "Apache Spark", "Tailwind CSS"],
-    },
-    {
-      category: "AI/ML",
-      title: "Healthcare AI – Hospital Readmission Predictor",
-      description:
-        "Built a HIPAA-compliant chatbot with LLaMA, BioMistral, ClinicalBERT, Clinical XLNet, GPT-4 Turbo. Improved prediction accuracy by 20% using QLoRA, LangChain RAG, and clinical knowledge graphs.",
-      tech: ["Python", "FastAPI", "React", "LangChain"],
-    },
-    {
-      category: "AI/ML",
-      title: "Fine-tuning LLMs for Historical QA",
-      description:
-        "Fine-tuned LLMs (QLoRA, LoRA+, IA3) on 19th-century U.S. history. Achieved 50% better QA accuracy using Milvus, ArangoDB, BLEU and ROUGE scoring.",
-      tech: ["Python", "LangChain", "Milvus", "ArangoDB"],
-    },
-    {
-      category: "AI/ML",
-      title: "Network Traffic Anomaly Detection",
-      description:
-        "Built ML models (KNN, Decision Trees, Naive Bayes, Ensemble Methods) for attack types (e.g., DDoS) with feature selection via PCA, Random Forest and Sampling using SMOTE.",
-      tech: ["Python", "Scikit-Learn", "Pandas"],
-    },
-    {
-      category: "AI/ML",
-      title: "RCNN and YOLO Object Detection",
-      description:
-        "Trained RCNN and YOLOv5 models for object detection using custom datasets. Achieved high precision on real-time inference.",
-      tech: ["Python", "TensorFlow", "YOLOv5"],
-    },
-    {
-      category: "AI/ML",
-      title: "GANs and Retrieval-Augmented Generation (RAG)",
-      description:
-        "Built GAN-based synthetic data generators and RAG systems integrated with Milvus and LangChain for enhanced QA accuracy.",
-      tech: ["Python", "TensorFlow", "LangChain"],
-    },
-    {
-      category: "AI/ML",
-      title: "Deep Learning Coursework Projects",
-      description:
-        "Worked on CNNs, RNNs, LSTM, GloVe, Word2Vec, YOLO, GANs, Vision Transformers, GEN AI, Prompt Engineering, and RAGs.",
-      tech: ["TensorFlow", "PyTorch", "Keras"],
-    },
-  
-    // --- Big Data Engineering Projects ---
-    {
-      category: "Big Data Engineering",
-      title: "Azure Data Engineering for Ride Data",
-      description:
-        "Built Azure ADF pipelines ingesting 10M+ ride events into Synapse. Used LSTM and Autoencoders for demand forecasting via Azure Databricks.",
-      tech: ["Azure", "ADF", "Azure Databricks", "Synapse"],
-    },
-    {
-      category: "Big Data Engineering",
-      title: "Yelp Review Real-Time Big Data Analytics",
-      description:
-        "Streamed Yelp reviews via Kafka, transformed with Apache Spark on GCP Dataproc, and performed sentiment analysis with Spark MLlib.",
-      tech: ["Apache Spark", "Kafka", "BigQuery"],
-    },
-    {
-      category: "Big Data Engineering",
-      title: "Google Job Data Analytics (GCP)",
-      description:
-        "Built an incremental ETL pipeline with Airflow, BigQuery, and visualized job analytics using Tableau.",
-      tech: ["Apache Airflow", "BigQuery", "Tableau"],
-    },
-    {
-      category: "Big Data Engineering",
-      title: "ML Pipeline Deployment with Docker and Kubernetes",
-      description:
-        "Built PyCaret ML model, Flask API, containerized it with Docker, deployed to GKE with Git-based CI/CD automation.",
-      tech: ["Docker", "GKE", "Flask", "GitHub Actions"],
-    },
-    {
-      category: "Big Data Engineering",
-      title: "Real-Time Stock Data Analytics with AWS and Kafka",
-      description:
-        "Built a real-time Kafka pipeline on AWS EC2, processed data with AWS Glue and analyzed with Athena.",
-      tech: ["Kafka", "AWS Glue", "AWS Athena"],
-    },
-  
-    // --- Data Analytics Projects ---
-    {
-      category: "Data Analytics",
-      title: "Amazon Sales Dashboard",
-      description:
-        "Cleaned Amazon sales data using Pandas, designed Tableau dashboards with visual encoding and Gestalt Principles for business insights.",
-      tech: ["Pandas", "Tableau", "NumPy"],
-    },
-  ];
-  
+  {
+    title: "LogLens – An Agentic AI Log Debugger",
+    description: "Built a Gemini-powered AI RCA assistant for debugging Spark, Kafka, and Airflow logs using multi-agent frameworks.",
+    tech: ["Python", "AI Agent", "LangChain", "ChromaDB", "Streamlit", "Gemini 2.0"],
+    category: "AI/ML",
+  },
+  {
+    title: "Healthcare AI – Hospital Readmission Predictor",
+    description: "Developed a HIPAA-compliant chatbot using fine-tuned LLMs like Llama, Clinical XLNet, Mistral, BERT, and GPT-4.",
+    tech: ["Python", "Django", "FaissCPU", "Qdrant", "Pinecone", "Llama", "Clinical XLNet", "GPT-4", "Mistral", "BERT"],
+    category: "AI/ML",
+  },
+  {
+    title: "Fine-tuning LLMs for Historical QA",
+    description: "Fine-tuned LLMs using Knowledge Graphs, BLEU & ROUGE evaluation, improving QA accuracy by 50%.",
+    tech: ["Python", "LangChain", "Knowledge Graphs", "Milvus", "ArangoDB", "BLEU", "ROUGE", "Inference"],
+    category: "AI/ML",
+  },
+  {
+    title: "Network Traffic Anomaly Detection",
+    description: "Built ML models like Decision Trees, KNN, with feature selection using PCA and oversampling via SMOTE.",
+    tech: ["Pandas", "Scikit-Learn", "SMOTE", "Grid Search", "PCA"],
+    category: "AI/ML",
+  },
+  {
+    title: "CCTV Object Detection",
+    description: "Trained real-time object detectors using YOLOv8 and RNN architectures, integrating OpenCV pipelines.",
+    tech: ["RNN", "YOLOv8", "OpenCV", "PyTorch", "Vision Transformers"],
+    category: "AI/ML",
+  },
+  {
+    title: "Image-to-Image Translation (GANs) and Retrieval-Augmented Generation (RAG)",
+    description: "Combined GAN-based synthetic data generation (CycleGAN, LSGAN) with RAG pipelines for advanced QA.",
+    tech: ["VectorDB", "LSGAN", "CycleGAN", "LLM", "LangChain", "TensorFlow"],
+    category: "AI/ML",
+  },
+  {
+    title: "Deep Learning Coursework Projects",
+    description: "Built projects across CNNs, RNNs, LSTMs, Vision Transformers, GANs, and Generative AI applications.",
+    tech: ["CNN", "RNN", "LSTM", "ViTs", "GANs", "OpenCV", "GloVe", "Word2Vec", "OpenAI", "VectorDBs", "GEN AI / Prompt Engineering"],
+    category: "AI/ML",
+  },
+  {
+    title: "Azure Data Engineering for Ride Data",
+    description: "Built ADF pipelines ingesting ride events into Synapse and built LSTM forecasting models via Databricks.",
+    tech: ["Azure Data Factory (ADF)", "Azure Databricks (PySpark, MLflow)", "Azure Synapse", "LSTM", "Autoencoders", "PowerBI"],
+    category: "Big Data Engineering",
+  },
+  {
+    title: "Yelp Review Real-Time Big Data Analytics",
+    description: "Streamed Yelp reviews using Kafka and processed sentiment analysis with Spark MLlib and BigQuery.",
+    tech: ["Apache Spark", "Apache Kafka", "Google Cloud Dataproc", "SparkSQL", "BigQuery", "Looker Analytics"],
+    category: "Big Data Engineering",
+  },
+  {
+    title: "Google Search Job Data Analytics (GCP)",
+    description: "Built incremental ETL pipelines using Composer, Airflow, and BigQuery for Google Search job analytics.",
+    tech: ["SQL", "NoSQL", "Composer", "Apache Airflow", "Google BigQuery", "Tableau", "Snowflake"],
+    category: "Big Data Engineering",
+  },
+  {
+    title: "ML Pipeline Deployment with Docker and Kubernetes",
+    description: "Deployed a PyCaret ML model via Flask API, Dockerized, and managed Kubernetes deployments with GitHub CI/CD.",
+    tech: ["Docker", "Kubernetes (GKE)", "Flask", "PyCaret", "GitHub Actions"],
+    category: "Big Data Engineering",
+  },
+  {
+    title: "Real-Time Stock Data Analytics with AWS and Kafka",
+    description: "Built real-time Kafka pipelines for stock data analytics using AWS Glue, Athena, and Spark processing.",
+    tech: ["Apache Kafka", "AWS EC2", "AWS Glue", "LSTM", "Spark", "Python"],
+    category: "Big Data Engineering",
+  },
+  {
+    title: "Amazon Sales Dashboard",
+    description: "Built a Tableau dashboard analyzing Amazon sales using EDA techniques and Gestalt Principles for better UX insights.",
+    tech: ["Tableau", "SQL", "EDA", "Gestalt Principles"],
+    category: "Data Analytics",
+  },
+];
