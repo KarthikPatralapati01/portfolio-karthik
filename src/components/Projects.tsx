@@ -42,11 +42,14 @@ export default function Projects() {
 
             <div className="grid md:grid-cols-2 gap-8">
               {filteredProjects.map((project, idx) => (
-                <motion.div
+                <motion.a
                   key={idx}
+                  href="https://github.com/KarthikPatralapati01"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ y: -8 }}
                   transition={{ type: "spring", stiffness: 160, damping: 18 }}
-                  className="bg-gray-900 rounded-xl p-6 border border-gray-700 text-left hover:border-emerald-400 hover:shadow-[0_12px_35px_rgba(34,197,94,0.3)] transition-all duration-300"
+                  className="bg-gray-900 rounded-xl p-6 border border-gray-700 text-left hover:border-emerald-400 hover:shadow-[0_12px_35px_rgba(34,197,94,0.3)] transition-all duration-300 cursor-pointer"
                 >
                   <h4 className="text-lg font-bold mb-2 bg-gradient-to-r from-cyan-400 to-emerald-400 text-transparent bg-clip-text">
                     {project.title}
@@ -67,7 +70,7 @@ export default function Projects() {
                       );
                     })}
                   </div>
-                </motion.div>
+                </motion.a>
               ))}
             </div>
           </div>
