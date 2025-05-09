@@ -97,7 +97,7 @@ export default function Tools() {
                   className="bg-gray-900 rounded-xl p-4 border border-gray-700 text-white hover:border-emerald-400 hover:shadow-[0px_0px_25px_5px_rgba(34,197,94,0.5)] transition-all duration-300 flex flex-col items-center justify-center space-y-2"
                 >
                   <Image
-                    src={`/skill_icons/${tool.icon}`}
+                    src={`/${tool.icon}`}
                     alt={`${tool.name} icon`}
                     width={36}
                     height={36}
