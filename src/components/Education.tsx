@@ -25,7 +25,7 @@ export default function Education() {
         }, {
           title: "Vellore Institute of Technology, Tamil Nadu, India",
           degree: "BS in Electrical and Electronics Engineering",
-          date: "July 2017 – Aug 2021",
+          date: "July 2018 – Aug 2022",
           coursework: "Python, Object Oriented Programming, IoT Domain Analysis, Neural Networks & Deep Learning, Robotics, VLSI, Analog & Digital Circuits, Semiconductors, Signals & Systems, Field Theory"
         }].map((edu, index) => (
           <motion.div
