@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import HomeButton from "./HomeButton";
 
@@ -90,13 +90,21 @@ function ExperienceCard({ title, company, period, points }: any) {
         {showDuties ? "Hide Duties" : "Duties:"}
       </button>
 
-      {showDuties && (
-        <ul className="list-disc list-inside text-sm text-gray-300 space-y-1">
-          {points.map((point: string, index: number) => (
-            <li key={index}>{point}</li>
-          ))}
-        </ul>
-      )}
+      <AnimatePresence>
+        {showDuties && (
+          <motion.ul
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.3 }}
+            className="overflow-hidden list-disc list-inside text-sm text-gray-300 space-y-1"
+          >
+            {points.map((point: string, index: number) => (
+              <li key={index}>{point}</li>
+            ))}
+          </motion.ul>
+        )}
+      </AnimatePresence>
     </motion.div>
   );
 }
