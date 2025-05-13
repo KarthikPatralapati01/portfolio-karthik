@@ -6,14 +6,29 @@ import HomeButton from "./HomeButton";
 
 const experiences = [
   {
+    title: "Software Engineer - Web & Data Systems",
+    company: "DVR Softek",
+    period: "Feb 2025 – Present",
+    points: [
+      "Leading the end-to-end development of a web application for volunteer organizations, enabling streamlined support for users needing help across multiple domains (education, health, shelter, etc.)",
+      "Designed a scalable RDBMS schema using Amazon Aurora (PostgreSQL-compatible) to support structured relationships between users, volunteers, requests, and tasks with over 15+ interconnected tables",
+      "Developed backend services using AWS Lambda, API Gateway, and Glue for efficient data transformation pipelines and real-time processing",
+      "Implemented a high-performance volunteer matching system using NLP and vector search algorithms that analyzes request context, sentiment, and urgency",
+      "Integrated a multilingual GenAI-powered chatbot using zero-shot classification and GPT APIs to route users to the right help services, reducing response time by 60%",
+      "Deployed Redis-based caching for proximity queries using GeoHash, improving nearby volunteer lookup latency by 5x",
+      "Managed CI/CD pipelines with GitHub Actions and monitored all services via AWS X-Ray and CloudWatch",
+      "Actively merge, debug, and resolve frontend GitHub issues using ReactJS, Redux Toolkit, Formik, and daisyUI with consistent bug resolution throughput of ~95% within 24 hours"
+    ]
+  },
+  {
     title: "Inventory Data Analyst",
     company: "Chartwells Higher Education Dining Services",
     period: "Aug 2023 – Dec 2024",
     points: [
       "Reduced perishable goods waste by 90% with improved inventory analytics",
       "Automated reporting using Excel & MS Office tools",
-      "Tracked weekly cost trends for San Jose State University dining ops",
-    ],
+      "Tracked weekly cost trends for San Jose State University dining ops"
+    ]
   },
   {
     title: "Data Engineer",
@@ -29,8 +44,8 @@ const experiences = [
       "Debugged with CloudWatch logs + SNS alerts to reduce manual effort",
       "Implemented Data Vault for historical data traceability",
       "Used GitHub Actions and Docker for CI/CD deployments",
-      "Expected 50% reduction in infrastructure cost via scalability improvements",
-    ],
+      "Expected 50% reduction in infrastructure cost via scalability improvements"
+    ]
   },
   {
     title: "Software Test Engineer Intern",
@@ -39,9 +54,9 @@ const experiences = [
     points: [
       "Built scalable ETL pipeline with Oracle DB and SQL for 1TB daily data",
       "Used Informatica to streamline data mappings",
-      "Created a lakehouse architecture integrated with Tableau for EV Trains",
-    ],
-  },
+      "Created a lakehouse architecture integrated with Tableau for EV Trains"
+    ]
+  }
 ];
 
 export default function Experience() {
