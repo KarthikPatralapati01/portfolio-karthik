@@ -2,6 +2,7 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
+import { ChevronDown } from "lucide-react";
 import HomeButton from "./HomeButton";
 
 const experiences = [
@@ -86,7 +87,7 @@ export default function Experience() {
 }
 
 function ExperienceCard({ title, company, period, points }: any) {
-  const [showDuties, setShowDuties] = useState(false);
+  const [showResponsibilities, setShowResponsibilities] = useState(false);
 
   return (
     <motion.div
@@ -98,15 +99,18 @@ function ExperienceCard({ title, company, period, points }: any) {
       <p className="text-sm font-semibold text-green-500 mb-1">{company}</p>
       <p className="text-sm text-gray-400 mb-3">{period}</p>
 
-      <button
-        onClick={() => setShowDuties(!showDuties)}
-        className="text-sm text-emerald-300 hover:underline mb-2"
-      >
-        {showDuties ? "Hide Duties" : "Duties:"}
-      </button>
+      <div className="flex items-center cursor-pointer text-sm text-emerald-300 hover:underline mb-2" onClick={() => setShowResponsibilities(!showResponsibilities)}>
+        <span className="mr-2">Responsibilities</span>
+        <motion.div
+          animate={{ y: [0, -3, 0] }}
+          transition={{ repeat: Infinity, duration: 1.5 }}
+        >
+          <ChevronDown className="w-4 h-4" />
+        </motion.div>
+      </div>
 
       <AnimatePresence>
-        {showDuties && (
+        {showResponsibilities && (
           <motion.ul
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
