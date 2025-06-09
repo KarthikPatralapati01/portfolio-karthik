@@ -1,5 +1,10 @@
 export const certificationsData = [
     {
+    title: "AWS Certified Solutions Architect – Associate",
+    issuer: "Amazon Web Services (AWS)",
+    link: "https://www.credly.com/badges/d9e087ad-853c-463e-bbbb-3ba663f4caa8",
+    },
+    {
       title: "5 Day Generative AI Intensive by Google",
       issuer: "Google (Kaggle Certification)",
       link: "https://www.kaggle.com/certification/badges/karthikpatralapati01/96",
