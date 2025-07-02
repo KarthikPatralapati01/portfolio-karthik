@@ -34,7 +34,7 @@ const experiences = [
   {
     title: "Data Engineer",
     company: "Sirveen Control Systems Pvt Ltd",
-    period: "Jan 2021 – Dec 2022",
+    period: "Aug 2021 – Dec 2022",
     points: [
       "Designed workflows to migrate Oracle DB to AWS S3 using Lambda & DMS",
       "Reduced CDC execution time from 15 hours to 1 hour using optimized Glue ETL",
@@ -51,7 +51,7 @@ const experiences = [
   {
     title: "Software Test Engineer Intern",
     company: "Sirveen Control Systems Pvt Ltd",
-    period: "Jul 2020 – Nov 2020",
+    period: "Jan 2021 – June 2021",
     points: [
       "Built scalable ETL pipeline with Oracle DB and SQL for 1TB daily data",
       "Used Informatica to streamline data mappings",
