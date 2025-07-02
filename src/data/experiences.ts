@@ -4,7 +4,7 @@ export const experiencesData = [
     {
       role: "Data Engineer",
       company: "Sirveen Control Systems Pvt Ltd",
-      duration: "Jan 2021 – Dec 2022",
+      duration: "Aug 2021 – Dec 2022",
       startDate: "2021-01",
       endDate: "2022-12",
       responsibilities: [
@@ -23,7 +23,7 @@ export const experiencesData = [
     {
       role: "Software Test Engineer Intern",
       company: "Sirveen Control Systems Pvt Ltd",
-      duration: "Jul 2020 – Nov 2020",
+      duration: "Jan 2021 – June 2021",
       startDate: "2020-07",
       endDate: "2020-11",
       responsibilities: [
