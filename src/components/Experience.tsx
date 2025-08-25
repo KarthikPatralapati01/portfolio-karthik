@@ -56,9 +56,7 @@ const experiences = [
     company: "Sirveen Control Systems Pvt Ltd",
     period: "Aug 2021 – Dec 2021",
     points: [
-      "Built scalable ETL pipeline with Oracle DB and SQL for 1TB daily data",
-      "Used Informatica to streamline data mappings",
-      "Created a lakehouse architecture integrated with Tableau for EV Trains"
+      "Internship: Designed a scalable ETL pipeline to process 950GB of daily data into GCP, enabling real-time issue detection and optimizing transformation efficiency with Spark (Dataflow). Integrated with Tableau dashboards, enhancing analytics and decision-making for EV Trains Data logger."
     ]
   }
 ];
