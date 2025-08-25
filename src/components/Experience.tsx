@@ -11,15 +11,18 @@ const experiences = [
     company: "DVR Softek",
     period: "Feb 2025 – Present",
     points: [
-      "Leading the end-to-end development of a web application for volunteer organizations, enabling streamlined support for users needing help across multiple domains (education, health, shelter, etc.)",
-      "Designed a scalable RDBMS schema using Amazon Aurora (PostgreSQL-compatible) to support structured relationships between users, volunteers, requests, and tasks with over 15+ interconnected tables",
-      "Developed backend services using AWS Lambda, API Gateway, and Glue for efficient data transformation pipelines and real-time processing",
-      "Implemented a high-performance volunteer matching system using NLP and vector search algorithms that analyzes request context, sentiment, and urgency",
-      "Integrated a multilingual GenAI-powered chatbot using zero-shot classification and GPT APIs to route users to the right help services, reducing response time by 60%",
-      "Deployed Redis-based caching for proximity queries using GeoHash, improving nearby volunteer lookup latency by 5x",
-      "Managed CI/CD pipelines with GitHub Actions and monitored all services via AWS X-Ray and CloudWatch",
-      "Actively merge, debug, and resolve frontend GitHub issues using ReactJS, Redux Toolkit, Formik, and daisyUI with consistent bug resolution throughput of ~95% within 24 hours"
-    ]
+      "Built and deployed AI-driven churn prediction systems on SageMaker using hybrid LSTM + XGBoost models with SHAP explainability, reducing SaaS attrition by 22% and enabling automated retraining via Airflow.",
+      "Enhanced large language model efficiency by applying mixed precision training, roofline performance modeling, and grouped query attention, improving inference throughput and scalability.",
+      "Developed continuous batching pipelines with PagedAttention, boosting multi-user inference throughput for LLM applications.",
+      "Streamlined RAG pipelines by implementing KV cache preloading, increasing accuracy and responsiveness in AI-driven CRM queries.",
+      "Designed and integrated multilingual GenAI chatbots with zero-shot classification and GPT APIs, cutting response times by 60% and expanding accessibility across domains.",
+      "Processed 50M+ healthcare EHR and claims records using PySpark on Databricks, powering high-value clinical insights.",
+      "Built medallion architecture pipelines with Azure Data Factory and Airflow, enabling 1 TB/day throughput and reducing ETL job failures by 40%.",
+      "Applied HIPAA-compliant masking for sensitive data and optimized Snowflake queries, boosting warehouse performance by 35%.",
+      "Implemented CI/CD pipelines with GitHub Actions and Databricks CLI, reducing deployment errors by 80%.",
+      "Delivered vector-ready multimodal datasets for GenAI models, enabling predictive analytics that improved HEDIS scores and reduced readmissions.",
+
+
   },
   {
     title: "Inventory Data Analyst",
