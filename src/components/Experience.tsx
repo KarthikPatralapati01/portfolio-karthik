@@ -20,7 +20,7 @@ const experiences = [
       "Built medallion architecture pipelines with Azure Data Factory and Airflow, enabling 1 TB/day throughput and reducing ETL job failures by 40%.",
       "Applied HIPAA-compliant masking for sensitive data and optimized Snowflake queries, boosting warehouse performance by 35%.",
       "Implemented CI/CD pipelines with GitHub Actions and Databricks CLI, reducing deployment errors by 80%.",
-      "Delivered vector-ready multimodal datasets for GenAI models, enabling predictive analytics that improved HEDIS scores and reduced readmissions.",
+      "Delivered vector-ready multimodal datasets for GenAI models, enabling predictive analytics that improved HEDIS scores and reduced readmissions."
 
 
   },
