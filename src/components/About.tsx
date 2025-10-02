@@ -25,7 +25,7 @@ export default function About() {
       <div className="max-w-2xl space-y-6 text-left">
         <h2 className="text-cyan-400 text-xl font-semibold uppercase tracking-[6px]">About</h2>
         <h3 className="text-4xl font-extrabold leading-tight">
-          Hey 👋🏼 I&apos;m Karthik – a Software Oriented Data/AI/ML Engineer based in the SF Bay Area 🌉.
+          Hey 👋🏼 I&apos;m Karthik – a Software Oriented Data & AI/ML Engineer based in the SF Bay Area 🌉.
         </h3>
         <p className="text-lg text-gray-300 leading-relaxed">
           I earned my Master&apos;s in Applied Data Science and Analytics with a focus on AI at San Jose State University, USA and completed my undergrad in Electrical and Electronics Engineering at VIT University, India.
