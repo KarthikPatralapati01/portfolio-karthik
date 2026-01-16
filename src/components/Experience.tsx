@@ -11,7 +11,16 @@ const experiences = [
     company: "DVR Softek",
     period: "Feb 2025 – Present",
     points: [
-      ""
+      "Built and deployed AI-driven churn prediction systems on SageMaker using hybrid LSTM + XGBoost models with SHAP explainability, reducing SaaS attrition by 22% and enabling automated retraining via Airflow.",
+      "Enhanced large language model efficiency by applying mixed precision training, roofline performance modeling, and grouped query attention, improving inference throughput and scalability.",
+      "Developed continuous batching pipelines with PagedAttention, boosting multi-user inference throughput for LLM applications.",
+      "Streamlined RAG pipelines by implementing KV cache preloading, increasing accuracy and responsiveness in AI-driven CRM queries.",
+      "Designed and integrated multilingual GenAI chatbots with zero-shot classification and GPT APIs, cutting response times by 60% and expanding accessibility across domains.",
+      "Processed 50M+ healthcare EHR and claims records using PySpark on Databricks, powering high-value clinical insights.",
+      "Built medallion architecture pipelines with Azure Data Factory and Airflow, enabling 1 TB/day throughput and reducing ETL job failures by 40%.",
+      "Applied HIPAA-compliant masking for sensitive data and optimized Snowflake queries, boosting warehouse performance by 35%.",
+      "Implemented CI/CD pipelines with GitHub Actions and Databricks CLI, reducing deployment errors by 80%.",
+      "Delivered vector-ready multimodal datasets for GenAI models, enabling predictive analytics that improved HEDIS scores and reduced readmissions."
       ]
 
 
@@ -21,7 +30,9 @@ const experiences = [
     company: "Chartwells Higher Education Dining Services",
     period: "Aug 2023 – Dec 2024",
     points: [
-      ""
+      "Reduced perishable goods waste by 90% with improved inventory analytics",
+      "Automated reporting using Excel & MS Office tools",
+      "Tracked weekly cost trends for San Jose State University dining ops"
     ]
   },
   {
@@ -29,7 +40,16 @@ const experiences = [
     company: "Sirveen Control Systems Pvt Ltd",
     period: "Feb 2022 – Dec 2022",
     points: [
-      ""
+      "Designed workflows to migrate Oracle DB to AWS S3 using Lambda & DMS",
+      "Reduced CDC execution time from 15 hours to 1 hour using optimized Glue ETL",
+      "Orchestrated Step Functions with Glue & Spark SQL for automation",
+      "Populated fact/dimension tables via parameterized ETL pipelines",
+      "Ingested data into DynamoDB & Elasticsearch for real-time Power BI insights",
+      "Used Athena for sanity checks, cutting manual validation by 40%",
+      "Debugged with CloudWatch logs + SNS alerts to reduce manual effort",
+      "Implemented Data Vault for historical data traceability",
+      "Used GitHub Actions and Docker for CI/CD deployments",
+      "Expected 50% reduction in infrastructure cost via scalability improvements"
     ]
   },
   {
