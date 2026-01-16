@@ -1,6 +1,18 @@
 // src/data/projects.ts
 export const projectsData = [
   {
+    title: "Aurora QA Service",
+    description: "A lightweight question–answering API that allows users to ask natural-language questions about Aurora member messages.The service semantically indexes all messages from Aurora’s public API, stores embeddings in Pinecone, and uses OpenAI to generate accurate, context-aware answers.",
+    tech: ["Python", "PyTorch", "AI Agent", "Langchain", "PineCone", "open AI"],
+    category: "AI/ML",
+  },
+  {
+    title: "Information Credibility of AI Agents",
+    description: "Built an end-to-end claim-level credibility evaluation system for LLM research that scores trustworthiness using source quality, linguistic signals, recency, and independent corroboration.",
+    tech: ["Python", "PyTorch", "AI Agent", "LangGraph", "PineCone", "open AI"],
+    category: "AI/ML",
+  },
+  {
     title: "LogLens – An Agentic AI Log Debugger",
     description: "Built a Gemini-powered AI RCA assistant for debugging Spark, Kafka, and Airflow logs using multi-agent frameworks.",
     tech: ["Python", "AI Agent", "LangChain", "ChromaDB", "Streamlit", "Gemini 2.0"],
