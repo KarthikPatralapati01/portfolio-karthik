@@ -23,7 +23,7 @@ export const experiencesData = [
     },
     {
       role: "Inventory Data Analyst",
-      company: "Chartwells Higher Education Dining Services",
+      company: "Chartwells Higher Education Dining Services - Compass Group",
       duration: "Aug 2023 – Dec 2024",
       startDate: "2023-08",
       endDate: "2024-12",
