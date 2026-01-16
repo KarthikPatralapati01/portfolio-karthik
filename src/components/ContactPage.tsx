@@ -14,7 +14,7 @@ type Inputs = {
 export default function ContactPage() {
   const { register, handleSubmit } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = (formData) => {
-    window.location.href = `mailto:venkatakarthik.patralapati@sjsu.edu?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message}`;
+    window.location.href = `mailto:karthik.patralapati@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message}`;
   };
 
   return (
@@ -33,7 +33,7 @@ export default function ContactPage() {
             href="mailto:venkatakarthik.patralapati@sjsu.edu"
             className="hover:text-green-400"
           >
-            venkatakarthik.patralapati@sjsu.edu
+            karthik.patralapati@gmail.com
           </a>
         </div>
 
